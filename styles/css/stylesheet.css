@@ -499,10 +499,10 @@ html {
     padding: 0
 }
 
-h1,h2,h3,h4,h5,h6 {
+/* h1,h2,h3,h4,h5,h6 {
     font-size: 100%;
     font-weight: 400
-}
+} */
 
 ul {
     list-style: none
@@ -6558,11 +6558,11 @@ body.has-navbar-fixed-bottom,html.has-navbar-fixed-bottom {
     justify-content: center;
     align-items: center;
   }
-  
+
   .navbar-start {
     margin-right: auto;
   }
-  
+
 
 .navbar-burger {
     color: #4a4a4a;
