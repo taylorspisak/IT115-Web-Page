@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Movie Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .movie 
+            border: 1px solid #ccc;
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .movie img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .movie h2 {
+            margin-top: 0;
+        }
+        .movie p {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>New Movie Reviews</h1>
+
+        <div class="movie">
+            <img src="https://www.bing.com/images/search?view=detailV2&ccid=84zViBeZ&id=B054CA21E3CC4CD2F7F14CE77401A4D65CD3A4EC&thid=OIP.84zViBeZX0hqNENY3AQHcQHaJQ&mediaurl=https%3A%2F%2Fwww.dmarge.com%2Fwp-content%2Fuploads%2F2022%2F07%2Foppenheimer-poster-480x600.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.f38cd58817995f486a344358dc040771%3Frik%3D7KTTXNakAXTnTA%26pid%3DImgRaw%26r%3D0&exph=600&expw=480&q=oppenheimer+movie+immages&simid=608037885047806707&form=IRPRST&ck=CCF3B2AAC1DDD04EA64DA0040A0590DD&selectedindex=4&itb=0&ajaxhist=0&ajaxserp=0&vt=0&sim=11" alt="Movie 1">
+            <h2>Oppenheimer</h2>
+            <p><strong>Release Year:</strong> 2023</p>
+            <p><strong>Rating:</strong> 8/10</p>
+            <p><strong>Review:</strong>an intelligent movie about an important topic that's never less than powerfully acted and incredibly entertaining !</p>
+        </div>
+
+        <div class="movie">
+            <img src="movie2.jpg" alt="Movie 2">
+            <h2>JOHN WICK: Chapter 4</h2>
+            <p><strong>Release Year:</strong> 2023</p>
+            <p><strong>Rating:</strong> 8.5/10</p>
+            <p><strong>Review:</strong> piles on more of everything -- and suggests that when it comes to a well-dressed Keanu Reeves dispatching his enemies in lethally balletic style, there can never be too much..</p>
+        </div>
+
+        <!-- Add more movie reviews here  -->
+
+    </div>
+</body>
+</html>
